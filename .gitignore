@@ -1,15 +1,58 @@
-# This file is used for Git repositories to specify intentionally untracked files that Git should ignore. 
-# If you are not using git, you can delete this file. For more information see: https://git-scm.com/docs/gitignore
-# For useful gitignore templates see: https://github.com/github/gitignore
+# Excluded Managed Package Metadata
+# Still allows customization, but doesn't track unchangeable files
+# Add all installed managed packages to this list
 
-# Salesforce cache
-.sf/
+# Excluded Managed Packages - non editable components
+ 
+# Copado Deployer base package
+copado__*.cls
+copado__*.cls-meta.xml
+copado__*.trigger
+copado__*.trigger-meta.xml
+copado__*.page
+copado__*.page-meta.xml
+
+# Copado CICD for Source Format Pipelines
+cmcSf__*.cls
+cmcSf__*.cls-meta.xml
+cmcSf__*.trigger
+cmcSf__*.trigger-meta.xml
+cmcSf__*.page
+cmcSf__*.page-meta.xml
+
+# Copado Quality Integration Framework
+copadoQuality__*.cls
+copadoQuality__*.cls-meta.xml
+copadoQuality__*.trigger
+copadoQuality__*.trigger-meta.xml
+copadoQuality__*.page
+copadoQuality__*.page-meta.xml
+
+# Excluded Metadata Types - Performance / Data-like
+*.document
+*.document-meta.xml
+*.installedPackage
+*.installedPackage-meta.xml
+*.staticresource
+*.staticresource-meta.xml
+
+
+# Excluded Metadata Types - Security
+*.authprovider-meta.xml
+*.samlssoconfig-meta.xml
+
+# Excluded Metadata Types - Obsolete as of API v44
+*.flowdefinition-meta.xml
+
+
+# Default SFDX - Dreamhouse .gitignore content
+
+# Salesforce dev
 .sfdx/
 .localdevserver/
-deploy-options.json
 
 # LWC VSCode autocomplete
-**/lwc/jsconfig.json
+jsconfig.json
 
 # LWC Jest coverage reports
 coverage/
@@ -29,6 +72,24 @@ node_modules/
 
 # MacOS system files
 .DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# VS Code project settings
+.vscode/*
+!.vscode/extensions.json
+.pmdCache
+/scan_results.csv
+/quickstart.sh
+
+# Other
+.sf/
+.copado/
+.config
 
 # Windows system files
 Thumbs.db
