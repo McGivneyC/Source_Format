@@ -6,11 +6,11 @@
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
     <classAccesses>
-        <apexClass>AAAConflict</apexClass>
+        <apexClass>AAAConflictTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AAAConflictTest</apexClass>
+        <apexClass>AAAConflict</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
