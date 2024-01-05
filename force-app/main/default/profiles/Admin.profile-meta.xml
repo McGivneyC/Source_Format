@@ -10,11 +10,16 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <layoutAssignments>
-        <layout>Copado__c-Copado Test Layout</layout>
-    </layoutAssignments>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Copado__c.NewTest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Copado_Test__c-Copado Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Copado__c-Copado Test Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
