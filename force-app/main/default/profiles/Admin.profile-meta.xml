@@ -2,11 +2,11 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>AAAConflict</apexClass>
+        <apexClass>AAAConflictTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AAAConflictTest</apexClass>
+        <apexClass>AAAConflict</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -21,10 +21,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Copado__c-Copado Test Layout</layout>
+        <layout>Copado_Test__c-Copado Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Copado_Test__c-Copado Test Layout</layout>
+        <layout>Copado__c-Copado Test Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
