@@ -10,6 +10,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Copado__c.Copado_Test_Text_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Copado__c-Copado Test Layout</layout>
     </layoutAssignments>
